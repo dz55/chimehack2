@@ -7,46 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		843AF0551B51E3D2005BFBC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AF0541B51E3D2005BFBC6 /* AppDelegate.swift */; };
-		843AF0571B51E3D2005BFBC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AF0561B51E3D2005BFBC6 /* ViewController.swift */; };
-		843AF05A1B51E3D2005BFBC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843AF0581B51E3D2005BFBC6 /* Main.storyboard */; };
-		843AF05C1B51E3D2005BFBC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843AF05B1B51E3D2005BFBC6 /* Images.xcassets */; };
-		843AF05F1B51E3D2005BFBC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843AF05D1B51E3D2005BFBC6 /* LaunchScreen.xib */; };
-		843AF06B1B51E3D3005BFBC6 /* EscalappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AF06A1B51E3D3005BFBC6 /* EscalappTests.swift */; };
+		843AF0831B51E450005BFBC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843AF0821B51E450005BFBC6 /* main.m */; };
+		843AF0861B51E450005BFBC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843AF0851B51E450005BFBC6 /* AppDelegate.m */; };
+		843AF0891B51E450005BFBC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843AF0881B51E450005BFBC6 /* ViewController.m */; };
+		843AF08C1B51E450005BFBC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843AF08A1B51E450005BFBC6 /* Main.storyboard */; };
+		843AF08E1B51E450005BFBC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843AF08D1B51E450005BFBC6 /* Images.xcassets */; };
+		843AF0911B51E450005BFBC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843AF08F1B51E450005BFBC6 /* LaunchScreen.xib */; };
+		843AF09D1B51E450005BFBC6 /* EscalappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843AF09C1B51E450005BFBC6 /* EscalappTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		843AF0651B51E3D3005BFBC6 /* PBXContainerItemProxy */ = {
+		843AF0971B51E450005BFBC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 843AF0471B51E3D2005BFBC6 /* Project object */;
+			containerPortal = 843AF0751B51E450005BFBC6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 843AF04E1B51E3D2005BFBC6;
+			remoteGlobalIDString = 843AF07C1B51E450005BFBC6;
 			remoteInfo = Escalapp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		843AF04F1B51E3D2005BFBC6 /* Escalapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Escalapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		843AF0531B51E3D2005BFBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		843AF0541B51E3D2005BFBC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		843AF0561B51E3D2005BFBC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		843AF0591B51E3D2005BFBC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		843AF05B1B51E3D2005BFBC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		843AF05E1B51E3D2005BFBC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		843AF0641B51E3D3005BFBC6 /* EscalappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscalappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		843AF0691B51E3D3005BFBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		843AF06A1B51E3D3005BFBC6 /* EscalappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscalappTests.swift; sourceTree = "<group>"; };
+		843AF07D1B51E450005BFBC6 /* Escalapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Escalapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843AF0811B51E450005BFBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843AF0821B51E450005BFBC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		843AF0841B51E450005BFBC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		843AF0851B51E450005BFBC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		843AF0871B51E450005BFBC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		843AF0881B51E450005BFBC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		843AF08B1B51E450005BFBC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843AF08D1B51E450005BFBC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		843AF0901B51E450005BFBC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		843AF0961B51E450005BFBC6 /* EscalappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscalappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843AF09B1B51E450005BFBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843AF09C1B51E450005BFBC6 /* EscalappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EscalappTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		843AF04C1B51E3D2005BFBC6 /* Frameworks */ = {
+		843AF07A1B51E450005BFBC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		843AF0611B51E3D3005BFBC6 /* Frameworks */ = {
+		843AF0931B51E450005BFBC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,58 +60,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		843AF0461B51E3D2005BFBC6 = {
+		843AF0741B51E450005BFBC6 = {
 			isa = PBXGroup;
 			children = (
-				843AF0511B51E3D2005BFBC6 /* Escalapp */,
-				843AF0671B51E3D3005BFBC6 /* EscalappTests */,
-				843AF0501B51E3D2005BFBC6 /* Products */,
+				843AF07F1B51E450005BFBC6 /* Escalapp */,
+				843AF0991B51E450005BFBC6 /* EscalappTests */,
+				843AF07E1B51E450005BFBC6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		843AF0501B51E3D2005BFBC6 /* Products */ = {
+		843AF07E1B51E450005BFBC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				843AF04F1B51E3D2005BFBC6 /* Escalapp.app */,
-				843AF0641B51E3D3005BFBC6 /* EscalappTests.xctest */,
+				843AF07D1B51E450005BFBC6 /* Escalapp.app */,
+				843AF0961B51E450005BFBC6 /* EscalappTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		843AF0511B51E3D2005BFBC6 /* Escalapp */ = {
+		843AF07F1B51E450005BFBC6 /* Escalapp */ = {
 			isa = PBXGroup;
 			children = (
-				843AF0541B51E3D2005BFBC6 /* AppDelegate.swift */,
-				843AF0561B51E3D2005BFBC6 /* ViewController.swift */,
-				843AF0581B51E3D2005BFBC6 /* Main.storyboard */,
-				843AF05B1B51E3D2005BFBC6 /* Images.xcassets */,
-				843AF05D1B51E3D2005BFBC6 /* LaunchScreen.xib */,
-				843AF0521B51E3D2005BFBC6 /* Supporting Files */,
+				843AF0841B51E450005BFBC6 /* AppDelegate.h */,
+				843AF0851B51E450005BFBC6 /* AppDelegate.m */,
+				843AF0871B51E450005BFBC6 /* ViewController.h */,
+				843AF0881B51E450005BFBC6 /* ViewController.m */,
+				843AF08A1B51E450005BFBC6 /* Main.storyboard */,
+				843AF08D1B51E450005BFBC6 /* Images.xcassets */,
+				843AF08F1B51E450005BFBC6 /* LaunchScreen.xib */,
+				843AF0801B51E450005BFBC6 /* Supporting Files */,
 			);
 			path = Escalapp;
 			sourceTree = "<group>";
 		};
-		843AF0521B51E3D2005BFBC6 /* Supporting Files */ = {
+		843AF0801B51E450005BFBC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				843AF0531B51E3D2005BFBC6 /* Info.plist */,
+				843AF0811B51E450005BFBC6 /* Info.plist */,
+				843AF0821B51E450005BFBC6 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		843AF0671B51E3D3005BFBC6 /* EscalappTests */ = {
+		843AF0991B51E450005BFBC6 /* EscalappTests */ = {
 			isa = PBXGroup;
 			children = (
-				843AF06A1B51E3D3005BFBC6 /* EscalappTests.swift */,
-				843AF0681B51E3D3005BFBC6 /* Supporting Files */,
+				843AF09C1B51E450005BFBC6 /* EscalappTests.m */,
+				843AF09A1B51E450005BFBC6 /* Supporting Files */,
 			);
 			path = EscalappTests;
 			sourceTree = "<group>";
 		};
-		843AF0681B51E3D3005BFBC6 /* Supporting Files */ = {
+		843AF09A1B51E450005BFBC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				843AF0691B51E3D3005BFBC6 /* Info.plist */,
+				843AF09B1B51E450005BFBC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,13 +122,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		843AF04E1B51E3D2005BFBC6 /* Escalapp */ = {
+		843AF07C1B51E450005BFBC6 /* Escalapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 843AF06E1B51E3D3005BFBC6 /* Build configuration list for PBXNativeTarget "Escalapp" */;
+			buildConfigurationList = 843AF0A01B51E450005BFBC6 /* Build configuration list for PBXNativeTarget "Escalapp" */;
 			buildPhases = (
-				843AF04B1B51E3D2005BFBC6 /* Sources */,
-				843AF04C1B51E3D2005BFBC6 /* Frameworks */,
-				843AF04D1B51E3D2005BFBC6 /* Resources */,
+				843AF0791B51E450005BFBC6 /* Sources */,
+				843AF07A1B51E450005BFBC6 /* Frameworks */,
+				843AF07B1B51E450005BFBC6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,46 +136,46 @@
 			);
 			name = Escalapp;
 			productName = Escalapp;
-			productReference = 843AF04F1B51E3D2005BFBC6 /* Escalapp.app */;
+			productReference = 843AF07D1B51E450005BFBC6 /* Escalapp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		843AF0631B51E3D3005BFBC6 /* EscalappTests */ = {
+		843AF0951B51E450005BFBC6 /* EscalappTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 843AF0711B51E3D3005BFBC6 /* Build configuration list for PBXNativeTarget "EscalappTests" */;
+			buildConfigurationList = 843AF0A31B51E450005BFBC6 /* Build configuration list for PBXNativeTarget "EscalappTests" */;
 			buildPhases = (
-				843AF0601B51E3D3005BFBC6 /* Sources */,
-				843AF0611B51E3D3005BFBC6 /* Frameworks */,
-				843AF0621B51E3D3005BFBC6 /* Resources */,
+				843AF0921B51E450005BFBC6 /* Sources */,
+				843AF0931B51E450005BFBC6 /* Frameworks */,
+				843AF0941B51E450005BFBC6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				843AF0661B51E3D3005BFBC6 /* PBXTargetDependency */,
+				843AF0981B51E450005BFBC6 /* PBXTargetDependency */,
 			);
 			name = EscalappTests;
 			productName = EscalappTests;
-			productReference = 843AF0641B51E3D3005BFBC6 /* EscalappTests.xctest */;
+			productReference = 843AF0961B51E450005BFBC6 /* EscalappTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		843AF0471B51E3D2005BFBC6 /* Project object */ = {
+		843AF0751B51E450005BFBC6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Chime Hack 2";
 				TargetAttributes = {
-					843AF04E1B51E3D2005BFBC6 = {
+					843AF07C1B51E450005BFBC6 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					843AF0631B51E3D3005BFBC6 = {
+					843AF0951B51E450005BFBC6 = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 843AF04E1B51E3D2005BFBC6;
+						TestTargetID = 843AF07C1B51E450005BFBC6;
 					};
 				};
 			};
-			buildConfigurationList = 843AF04A1B51E3D2005BFBC6 /* Build configuration list for PBXProject "Escalapp" */;
+			buildConfigurationList = 843AF0781B51E450005BFBC6 /* Build configuration list for PBXProject "Escalapp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,29 +183,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 843AF0461B51E3D2005BFBC6;
-			productRefGroup = 843AF0501B51E3D2005BFBC6 /* Products */;
+			mainGroup = 843AF0741B51E450005BFBC6;
+			productRefGroup = 843AF07E1B51E450005BFBC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				843AF04E1B51E3D2005BFBC6 /* Escalapp */,
-				843AF0631B51E3D3005BFBC6 /* EscalappTests */,
+				843AF07C1B51E450005BFBC6 /* Escalapp */,
+				843AF0951B51E450005BFBC6 /* EscalappTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		843AF04D1B51E3D2005BFBC6 /* Resources */ = {
+		843AF07B1B51E450005BFBC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843AF05A1B51E3D2005BFBC6 /* Main.storyboard in Resources */,
-				843AF05F1B51E3D2005BFBC6 /* LaunchScreen.xib in Resources */,
-				843AF05C1B51E3D2005BFBC6 /* Images.xcassets in Resources */,
+				843AF08C1B51E450005BFBC6 /* Main.storyboard in Resources */,
+				843AF0911B51E450005BFBC6 /* LaunchScreen.xib in Resources */,
+				843AF08E1B51E450005BFBC6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		843AF0621B51E3D3005BFBC6 /* Resources */ = {
+		843AF0941B51E450005BFBC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,46 +215,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		843AF04B1B51E3D2005BFBC6 /* Sources */ = {
+		843AF0791B51E450005BFBC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843AF0571B51E3D2005BFBC6 /* ViewController.swift in Sources */,
-				843AF0551B51E3D2005BFBC6 /* AppDelegate.swift in Sources */,
+				843AF0891B51E450005BFBC6 /* ViewController.m in Sources */,
+				843AF0861B51E450005BFBC6 /* AppDelegate.m in Sources */,
+				843AF0831B51E450005BFBC6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		843AF0601B51E3D3005BFBC6 /* Sources */ = {
+		843AF0921B51E450005BFBC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843AF06B1B51E3D3005BFBC6 /* EscalappTests.swift in Sources */,
+				843AF09D1B51E450005BFBC6 /* EscalappTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		843AF0661B51E3D3005BFBC6 /* PBXTargetDependency */ = {
+		843AF0981B51E450005BFBC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 843AF04E1B51E3D2005BFBC6 /* Escalapp */;
-			targetProxy = 843AF0651B51E3D3005BFBC6 /* PBXContainerItemProxy */;
+			target = 843AF07C1B51E450005BFBC6 /* Escalapp */;
+			targetProxy = 843AF0971B51E450005BFBC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		843AF0581B51E3D2005BFBC6 /* Main.storyboard */ = {
+		843AF08A1B51E450005BFBC6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				843AF0591B51E3D2005BFBC6 /* Base */,
+				843AF08B1B51E450005BFBC6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		843AF05D1B51E3D2005BFBC6 /* LaunchScreen.xib */ = {
+		843AF08F1B51E450005BFBC6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				843AF05E1B51E3D2005BFBC6 /* Base */,
+				843AF0901B51E450005BFBC6 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -255,7 +263,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		843AF06C1B51E3D3005BFBC6 /* Debug */ = {
+		843AF09E1B51E450005BFBC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,12 +303,11 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		843AF06D1B51E3D3005BFBC6 /* Release */ = {
+		843AF09F1B51E450005BFBC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,7 +345,7 @@
 			};
 			name = Release;
 		};
-		843AF06F1B51E3D3005BFBC6 /* Debug */ = {
+		843AF0A11B51E450005BFBC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -348,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		843AF0701B51E3D3005BFBC6 /* Release */ = {
+		843AF0A21B51E450005BFBC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -358,7 +365,7 @@
 			};
 			name = Release;
 		};
-		843AF0721B51E3D3005BFBC6 /* Debug */ = {
+		843AF0A41B51E450005BFBC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,7 +384,7 @@
 			};
 			name = Debug;
 		};
-		843AF0731B51E3D3005BFBC6 /* Release */ = {
+		843AF0A51B51E450005BFBC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,32 +402,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		843AF04A1B51E3D2005BFBC6 /* Build configuration list for PBXProject "Escalapp" */ = {
+		843AF0781B51E450005BFBC6 /* Build configuration list for PBXProject "Escalapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843AF06C1B51E3D3005BFBC6 /* Debug */,
-				843AF06D1B51E3D3005BFBC6 /* Release */,
+				843AF09E1B51E450005BFBC6 /* Debug */,
+				843AF09F1B51E450005BFBC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		843AF06E1B51E3D3005BFBC6 /* Build configuration list for PBXNativeTarget "Escalapp" */ = {
+		843AF0A01B51E450005BFBC6 /* Build configuration list for PBXNativeTarget "Escalapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843AF06F1B51E3D3005BFBC6 /* Debug */,
-				843AF0701B51E3D3005BFBC6 /* Release */,
+				843AF0A11B51E450005BFBC6 /* Debug */,
+				843AF0A21B51E450005BFBC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		843AF0711B51E3D3005BFBC6 /* Build configuration list for PBXNativeTarget "EscalappTests" */ = {
+		843AF0A31B51E450005BFBC6 /* Build configuration list for PBXNativeTarget "EscalappTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843AF0721B51E3D3005BFBC6 /* Debug */,
-				843AF0731B51E3D3005BFBC6 /* Release */,
+				843AF0A41B51E450005BFBC6 /* Debug */,
+				843AF0A51B51E450005BFBC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 843AF0471B51E3D2005BFBC6 /* Project object */;
+	rootObject = 843AF0751B51E450005BFBC6 /* Project object */;
 }
