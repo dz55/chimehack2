@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [label setTransform:CGAffineTransformMakeRotation(-M_PI / 2)];
 }
 
 - (void)didReceiveMemoryWarning {
