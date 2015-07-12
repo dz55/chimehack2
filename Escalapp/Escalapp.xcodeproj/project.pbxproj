@@ -14,6 +14,9 @@
 		843AF08E1B51E450005BFBC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843AF08D1B51E450005BFBC6 /* Images.xcassets */; };
 		843AF0911B51E450005BFBC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843AF08F1B51E450005BFBC6 /* LaunchScreen.xib */; };
 		843AF09D1B51E450005BFBC6 /* EscalappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843AF09C1B51E450005BFBC6 /* EscalappTests.m */; };
+		843AF0B21B520413005BFBC6 /* 1. The Escalapp - Main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843AF0AF1B520413005BFBC6 /* 1. The Escalapp - Main.jpg */; };
+		843AF0B31B520413005BFBC6 /* library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843AF0B01B520413005BFBC6 /* library.jpg */; };
+		843AF0B41B520413005BFBC6 /* Summer-College-Campus-Tour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843AF0B11B520413005BFBC6 /* Summer-College-Campus-Tour.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		843AF0961B51E450005BFBC6 /* EscalappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscalappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843AF09B1B51E450005BFBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843AF09C1B51E450005BFBC6 /* EscalappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EscalappTests.m; sourceTree = "<group>"; };
+		843AF0AF1B520413005BFBC6 /* 1. The Escalapp - Main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1. The Escalapp - Main.jpg"; sourceTree = "<group>"; };
+		843AF0B01B520413005BFBC6 /* library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = library.jpg; sourceTree = "<group>"; };
+		843AF0B11B520413005BFBC6 /* Summer-College-Campus-Tour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Summer-College-Campus-Tour.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		843AF07F1B51E450005BFBC6 /* Escalapp */ = {
 			isa = PBXGroup;
 			children = (
+				843AF0A61B51F22F005BFBC6 /* Images */,
 				843AF0841B51E450005BFBC6 /* AppDelegate.h */,
 				843AF0851B51E450005BFBC6 /* AppDelegate.m */,
 				843AF0871B51E450005BFBC6 /* ViewController.h */,
@@ -117,6 +124,16 @@
 				843AF09B1B51E450005BFBC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		843AF0A61B51F22F005BFBC6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				843AF0AF1B520413005BFBC6 /* 1. The Escalapp - Main.jpg */,
+				843AF0B01B520413005BFBC6 /* library.jpg */,
+				843AF0B11B520413005BFBC6 /* Summer-College-Campus-Tour.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843AF0B31B520413005BFBC6 /* library.jpg in Resources */,
+				843AF0B21B520413005BFBC6 /* 1. The Escalapp - Main.jpg in Resources */,
 				843AF08C1B51E450005BFBC6 /* Main.storyboard in Resources */,
+				843AF0B41B520413005BFBC6 /* Summer-College-Campus-Tour.jpg in Resources */,
 				843AF0911B51E450005BFBC6 /* LaunchScreen.xib in Resources */,
 				843AF08E1B51E450005BFBC6 /* Images.xcassets in Resources */,
 			);
